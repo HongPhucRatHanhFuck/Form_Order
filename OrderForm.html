@@ -5,38 +5,45 @@
     <title>Order Form</title>
 </head>
 <style>
-    span{
+    span {
         color: red;
     }
 </style>
 <body>
-<h1><strong>Order Form</strong></h1>
-<h3>What would you like to buy?</h3>
-<br>
-<input type="text" placeholder="A"><select>
-    <option>A</option>
-    <option>B</option>
-    <option>C</option>
-</select>
-<br>
-How many would you like to order?
-<br>
-<input type="radio" name="Money"> 1 - $10
-<br>
-<input type="radio" name="Money"> 2 - $20
-<br>
-<input type="radio" name="Money"> 3 - $25
-<br>
-<h3>Name<span>*</span></h3>
-<br>
-<input type="text" placeholder="FristName">
-<input type="text" placeholder="LastName">
-<br>
-<h3><strong>Email</strong></h3>
-<input type="email">
-<br>
-<h3><strong>Phone Number</strong></h3>
-<input type="text"> - <input type="text"> - <input type="text">
+<form action="">
+    <fieldset>
+        <h1><strong>Order Form</strong></h1>
+        <h3>What would you like to buy?</h3>
+        <br>
+        <input type="text" placeholder="A"><select>
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+    </select>
+        <br>
+        How many would you like to order?
+        <br>
+        <input type="radio"name="Money"> 1 - $10
+        <br>
+        <input type="radio" name="Money"> 2 - $20
+        <br>
+        <input type="radio" name="Money"> 3 - $25
+        <br>
+        <h3>Name<span>*</span></h3>
+        <br>
+        <input type="text" placeholder="FristName" value="Hong Truong">
+        <input type="text" placeholder="LastName" value ="Phuc">
+        <br>
+        <h3><strong>Email</strong></h3>
+        <input type="email">
+        <br>
+        <h3><strong>Phone Number</strong></h3>
+        <input type="text"> - <input type="text"> - <input type="text">
+        <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+</form>
 
 </body>
 </html>
